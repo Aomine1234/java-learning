@@ -1,3 +1,5 @@
+package lesson1;
+
 public class Production {
     public int quantity;
     public String type;

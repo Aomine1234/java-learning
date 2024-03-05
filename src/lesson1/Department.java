@@ -1,3 +1,5 @@
+package lesson1;
+
 public class Department {
 
     public String name1;

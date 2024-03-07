@@ -1,10 +1,10 @@
 package lesson1;
 
 public class Factory {
-    public int number;
-    public String machine;
+    public int number = 2;
+    public String machine = "Tokarniy";
     public String inventory;
-    public String quality;
+    public String quality = " bad";
 
     public static void main(String[] args) {
         int number = 2;

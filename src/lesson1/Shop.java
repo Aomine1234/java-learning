@@ -2,8 +2,8 @@ package lesson1;
 
 public class Shop {
 
-    public int quantity;
-    public String income;
+    public int quantity = 12000;
+    public String income = "300000$";
 
     public static void main(String[] args) {
         String income;

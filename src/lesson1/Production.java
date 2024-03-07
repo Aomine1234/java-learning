@@ -1,9 +1,9 @@
 package lesson1;
 
 public class Production {
-    public int quantity;
-    public String type;
-    public String specialization;
+    public int quantity = 2000;
+    public String type = "Human resources: ";
+    public String specialization = "Engineers";
 
     public static void main(String[] args) {
         String resources, type, specialization;

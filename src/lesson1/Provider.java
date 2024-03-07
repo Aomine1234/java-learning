@@ -2,8 +2,8 @@ package lesson1;
 
 public class Provider {
 
-    public String resName;
-    public String provName;
+    public String resName = "wood";
+    public String provName = "OAK corp.";
 
     public static void main(String[] args) {
         String resName, provName;

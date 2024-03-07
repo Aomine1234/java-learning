@@ -2,9 +2,9 @@ package lesson1;
 
 public class Department {
 
-    public String name1;
-    public String name2;
-    public String name3;
+    public String name1 = "Кадровый";
+    public String name2 = "Рабочий";
+    public String name3 = "Бугалтерский";
 
     public static void main(String[] args) {
         String name1, name2, name3;

@@ -1,30 +1,23 @@
 package lesson2;
 
-import lesson1.Department;
-import lesson1.Factory;
-import lesson1.Provider;
-import lesson1.Shop;
+import lesson1.*;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        int a = 5; // переменная
-
-        String s = "lesson1.Department"; // переменная / объект s
-        String s1 = new String("lesson1.Department");
-
-        System.out.println(s);
-        System.out.println(s1);
+        Production production = new Production();
+        System.out.println("Какая спеиализация у рабочих: " + production.specialization);
 
         Department department = new Department();
-        System.out.println(department.name3);
+        System.out.println("Название отдела департамента: " + department.name3);
 
-        Shop sh = new Shop();
+        Factory factory = new Factory();
+        System.out.println("Категирия станков на заводе: " + factory.machine);
 
-        Provider pv = new Provider();
+        Provider provider = new Provider();
+        System.out.println("Название поставщика и категория товара: " + provider.provName + " - " + provider.resName);
 
-        Factory fc = new Factory();
-
+        Shop shop = new Shop();
+        System.out.println("Реализация магазина: " + shop.quantity + " " + "Выручка магазина: " + shop.income);
     }
 }
